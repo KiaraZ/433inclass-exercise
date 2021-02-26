@@ -40,7 +40,7 @@ f <- flights %>%
 
     ## Joining, by = "tailnum"
 
-![unchanged image](f.png)
+![](f.png)
 
 ## Problem 2
 
@@ -58,7 +58,7 @@ f1 <- flights %>%
 
     ## `summarise()` has grouped output by 'origin', 'month'. You can override using the `.groups` argument.
 
-![unchanged image](f1.png)
+![](f1.png)
 
 ``` r
 f2 <- flights%>%
@@ -71,7 +71,7 @@ f2 <- flights%>%
 
     ## `summarise()` has grouped output by 'origin'. You can override using the `.groups` argument.
 
-![unchanged image](f2.png)
+![](f2.png)
 
 ## Problem 3
 
@@ -90,4 +90,4 @@ f3 <- flights %>%
 
     ## `summarise()` has grouped output by 'date'. You can override using the `.groups` argument.
 
-![unchanged image](f3.png)
+![](f3.png)

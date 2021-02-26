@@ -23,7 +23,7 @@ f <- flights %>%
   left_join(planes) %>%
   select(tailnum:year)
 ```
-![unchanged image](f.png)
+![](f.png)
 
 
 ## Problem 2
@@ -37,7 +37,7 @@ f1 <- flights %>%
   pivot_wider(names_from=origin,
               values_from = deps)
 ```
-![unchanged image](f1.png)
+![](f1.png)
 
 ```{r}
 f2 <- flights%>%
@@ -47,7 +47,7 @@ f2 <- flights%>%
  pivot_wider(names_from = origin, 
              values_from = deps) 
 ```
-![unchanged image](f2.png)
+![](f2.png)
 
 ## Problem 3
 
@@ -62,4 +62,4 @@ f3 <- flights %>%
               values_from = deps)
 ```
 
-![unchanged image](f3.png)
+![](f3.png)
